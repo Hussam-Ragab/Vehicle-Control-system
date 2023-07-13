@@ -1,0 +1,25 @@
+/*
+ * Project.h
+ *
+ *  Created on: May 5, 2023
+ *      Author: Hossam Ragab
+ */
+
+#ifndef PROJECT_H_
+#define PROJECT_H_
+
+/*------------------------------Functions Prototype---------------------------------------------------*/
+
+void VehicleEngineState(char *Input);
+
+void VehicleEngineStateON(char *Engine, char *StateSystem, int *VehicleSpeed,int *RoomSensor, int *EngineSensor);
+
+void TrafficLightColor(int *VehicleSpeed);
+
+void RoomTemperatureSensor(int *RoomSensor);
+
+void EngineTemperatureSensor(int *EngineSensor);
+
+void DisplayCurrentVehicleState(int *VehicleSpeed, int *RoomSensor, int *EngineSensor );
+
+#endif /* PROJECT_H_ */
